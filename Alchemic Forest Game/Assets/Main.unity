@@ -210,22 +210,22 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 8.792419e-39
-      e01: 6.3135685e+34
-      e02: 6.462125e-32
-      e03: 1
-      e10: 0
-      e11: 6.4573e-41
+      e00: 9.8e-44
+      e01: 0
+      e02: 0
+      e03: 6.313497e+34
+      e10: 2.4e-44
+      e11: NaN
       e12: 0
-      e13: 0
+      e13: 6.4573e-41
       e20: NaN
-      e21: 0
-      e22: 2.9858053
-      e23: 0
+      e21: 9.8e-44
+      e22: 0
+      e23: 6.3134892e+34
       e30: NaN
       e31: 0
-      e32: 1e-45
-      e33: 0
+      e32: 0
+      e33: 6.4573e-41
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 8.78141e-39, g: 0, b: 2.8934257, a: 1e-45}
@@ -234,7 +234,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: NaN, g: NaN, b: 0, a: NaN}
   - m_RefCount: 0
-    m_Data: {r: 3.354555e-21, g: 0, b: 3e-45, a: 0}
+    m_Data: {r: NaN, g: NaN, b: 0, a: NaN}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -6, y: -4, z: 0}
