@@ -3964,7 +3964,7 @@ TilemapRenderer:
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
-  m_SortOrder: 0
+  m_SortOrder: 3
   m_MaskInteraction: 0
 --- !u!1839735485 &1516666576
 Tilemap:
