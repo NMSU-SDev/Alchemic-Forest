@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour {
 
@@ -8,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
     private int logCount;
 
     public float speed;
+    public Text logDisplay;
 
     void Start()
     {
@@ -31,7 +33,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
             logCount = logCount + 1;
-
+            logDisplay.text = logCount.ToString();
         }//end if
     }// end of OnTriggerEnter
 }// End of PlayerMovement
