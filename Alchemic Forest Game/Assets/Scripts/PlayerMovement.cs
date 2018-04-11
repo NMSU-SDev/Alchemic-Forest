@@ -5,11 +5,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rigid2D;
+    private int logCount;
+
     public float speed;
 
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
+        logCount = 0;
     }// end of Start
 
     void FixedUpdate()
@@ -26,7 +29,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         if(other.gameObject.CompareTag("Log"))
         {
-          other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            logCount = logCount + 1;
 
         }//end if
     }// end of OnTriggerEnter
