@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour {
 
         else if(!Input.anyKey)
         {
-            changeState(IDLE);
+           changeState(IDLE);
         }
     }//end of FixedUpdate
 
