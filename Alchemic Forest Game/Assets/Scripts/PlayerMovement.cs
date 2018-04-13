@@ -11,10 +11,23 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     public Text logDisplay;
 
+    Animator animator;
+
+    const int IDLE = 0;
+    const int BACKWARDS_MARCH = 1;
+    const int LEFT_MARCH = 2;
+    const int FORWARD_MARCH = 3;
+    const int RIGHT_MARCH = 4;
+
+    int currentAnimationState = IDLE;
+
+    
+
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
         logCount = 0;
+        animator = GetComponent<Animator>();
     }// end of Start
 
     void FixedUpdate()
@@ -23,7 +36,67 @@ public class PlayerMovement : MonoBehaviour {
         float Vertical = Input.GetAxis("Vertical");
         Vector2 move = new Vector2(Horizontal, Vertical);
         rigid2D.AddForce(move * speed);
-    }// end of FixedUpdate
+        
+        
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+
+            changeState(BACKWARDS_MARCH);
+        }
+
+        else if (Input.GetKey(KeyCode.RightArrow))
+        {
+            changeState(LEFT_MARCH);
+        }
+
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            changeState(RIGHT_MARCH);
+        }
+
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            changeState(FORWARD_MARCH);
+        }
+
+        else if(!Input.anyKey)
+        {
+           changeState(IDLE);
+        }
+    }//end of FixedUpdate
+
+        void changeState(int state)
+        {
+            if (currentAnimationState == state)
+                return;
+
+            switch(state)
+            {
+                case IDLE:
+                    animator.SetInteger("state", IDLE);
+                    break;
+
+                case BACKWARDS_MARCH:
+                    animator.SetInteger("state", BACKWARDS_MARCH);
+                    break;
+
+                case LEFT_MARCH:
+                    animator.SetInteger("state", LEFT_MARCH);
+                    break;
+
+                case FORWARD_MARCH:
+                    animator.SetInteger("state", FORWARD_MARCH);
+                    break;
+
+                case RIGHT_MARCH:
+                    animator.SetInteger("state", RIGHT_MARCH);
+                    break;
+            }
+
+            currentAnimationState = state;
+
+        }//end of changeState
+
 
     // Upon collision with another trigger game object the script will enter this method.
     // This method will be used to identify the object by tags and preform nessasary actions.
