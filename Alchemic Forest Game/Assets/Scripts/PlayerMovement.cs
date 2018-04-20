@@ -32,12 +32,34 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float Horizontal = Input.GetAxis("Horizontal");
+       /* float Horizontal = Input.GetAxis("Horizontal");
         float Vertical = Input.GetAxis("Vertical");
         Vector2 move = new Vector2(Horizontal, Vertical);
         rigid2D.AddForce(move * speed);
-        
-        
+        */
+
+        if(Input.GetKey(KeyCode.LeftArrow))
+        {
+            rigid2D.velocity = new Vector2(-4, 0);
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            rigid2D.velocity = new Vector2(4, 0);
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            rigid2D.velocity = new Vector2(0, 4);
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            rigid2D.velocity = new Vector2(0, -4);
+        }
+
+
+
         if (Input.GetKey(KeyCode.UpArrow))
         {
 
