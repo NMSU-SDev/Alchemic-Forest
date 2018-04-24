@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Log
+  - Transmutation
   layers:
   - Default
   - TransparentFX
