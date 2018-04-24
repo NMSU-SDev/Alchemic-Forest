@@ -17,7 +17,7 @@ public class PlayerCrafting : MonoBehaviour {
         GameObject player = GameObject.Find("Player");
         PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
-        if (crafting == true)
+        if (crafting == true && Input.GetKeyDown(KeyCode.Alpha3))
         {
 
             if (inventory.logCount >= 3)
