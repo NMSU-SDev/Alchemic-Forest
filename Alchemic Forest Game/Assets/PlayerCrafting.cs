@@ -17,9 +17,11 @@ public class PlayerCrafting : MonoBehaviour {
         GameObject player = GameObject.Find("Player");
         PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
+        // check that user is on transmutation circle and which recipe to use
         if (crafting == true && Input.GetKeyDown(KeyCode.Alpha3))
         {
 
+            // check for necessary materials
             if (inventory.logCount >= 3)
             {
                 inventory.logCount -= 3;
@@ -36,4 +38,12 @@ public class PlayerCrafting : MonoBehaviour {
             crafting = true;
         }//end Transmutation if
     }// end of OnTriggerEnter
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Transmutation"))
+        {
+            crafting = false;
+        }//end Transmutation if
+    }// end OnTriggerEnter
 }// end PlayerCrafting
