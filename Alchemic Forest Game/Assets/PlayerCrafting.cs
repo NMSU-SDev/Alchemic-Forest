@@ -4,34 +4,36 @@ using UnityEngine;
 
 public class PlayerCrafting : MonoBehaviour {
 
-
-    //private GameObject player;// = GameObject.Find("Player");
-    //private PlayerMovement inventory;// = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
+    bool crafting;
 
     // Use this for initialization
     void Start () {
-        //GameObject player = GameObject.Find("Player");
-        //PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
+        crafting = false;
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
         GameObject player = GameObject.Find("Player");
+        PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
-        if (other.gameObject.CompareTag("Transmutation"))
+        if (crafting == true)
         {
-            PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
             if (inventory.logCount >= 3)
             {
                 inventory.logCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+        if (other.gameObject.CompareTag("Transmutation"))
+        {
+            crafting = true;
         }//end Transmutation if
     }// end of OnTriggerEnter
 }// end PlayerCrafting
