@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rigid2D;
-    private int logCount;
+    public int logCount;// dependency in PlayerCrafting.cs
 
     public float speed;
     public Text logDisplay;
