@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour {
 
     int currentAnimationState = IDLE;
 
+    private bool moving;
     
 
     void Start()
@@ -28,6 +29,8 @@ public class PlayerMovement : MonoBehaviour {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
         logCount = 0;
         animator = GetComponent<Animator>();
+
+        moving = false;
     }// end of Start
 
     void FixedUpdate()
@@ -38,30 +41,55 @@ public class PlayerMovement : MonoBehaviour {
         rigid2D.AddForce(move * speed);
         
         
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) && (moving == false))
         {
 
             changeState(BACKWARDS_MARCH);
+            moving = true;
         }
 
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            moving = false;
+        }
+
+        else if (Input.GetKey(KeyCode.RightArrow) && (moving == false))
         {
             changeState(LEFT_MARCH);
+            moving = true;
         }
 
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            moving = false;
+        }
+
+        else if (Input.GetKey(KeyCode.LeftArrow) && (moving == false))
         {
             changeState(RIGHT_MARCH);
+            moving = true;
         }
 
-        else if (Input.GetKey(KeyCode.DownArrow))
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            moving = false;
+        }
+
+        else if (Input.GetKey(KeyCode.DownArrow) && (moving == false))
         {
             changeState(FORWARD_MARCH);
+            moving = true;
+        }
+
+        else if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            moving = false;
         }
 
         else if(!Input.anyKey)
         {
            changeState(IDLE);
+            moving = false;
         }
     }//end of FixedUpdate
 
