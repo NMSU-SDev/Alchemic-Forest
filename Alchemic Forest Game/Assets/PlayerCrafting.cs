@@ -6,9 +6,13 @@ public class PlayerCrafting : MonoBehaviour {
 
     bool crafting;
 
+    bool bridgeRune;
+
     // Use this for initialization
     void Start () {
         crafting = false;
+
+        bridgeRune = false;
     }
 	
 	// Update is called once per frame
