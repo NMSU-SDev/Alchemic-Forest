@@ -46,6 +46,7 @@ public class PlayerCrafting : MonoBehaviour {
         if (other.gameObject.CompareTag("Bridge Rune"))
         {
             bridgeRune = true;
+            other.gameObject.SetActive(false);
         }
     }// end of OnTriggerEnter
 
