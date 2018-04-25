@@ -41,6 +41,11 @@ public class PlayerCrafting : MonoBehaviour {
         {
             crafting = true;
         }//end Transmutation if
+
+        if (other.gameObject.CompareTag("Bridge Rune"))
+        {
+            bridgeRune = true;
+        }
     }// end of OnTriggerEnter
 
     private void OnTriggerExit2D(Collider2D other)
