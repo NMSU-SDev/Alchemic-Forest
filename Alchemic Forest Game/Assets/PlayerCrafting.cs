@@ -6,13 +6,15 @@ public class PlayerCrafting : MonoBehaviour {
 
     bool crafting;
 
-    bool bridgeRune;
-
+    bool bridgeRune, torchRune, axeRune, netRune, shovelRune;
     // Use this for initialization
     void Start () {
         crafting = false;
-
         bridgeRune = false;
+        torchRune = false;
+        axeRune = false;
+        netRune = false;
+        shovelRune = false;
     }
 	
 	// Update is called once per frame
@@ -33,7 +35,60 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.logDisplay.text = inventory.logCount.ToString();
             }
         }
+
+        if (crafting == true && torchRune == true && Input.GetKeyDown(KeyCode.Alpha1))
+        {
+
+            // check for necessary materials
+            if (inventory.logCount >= 1 && inventory.clothCount >= 2)
+            {
+                inventory.logCount -= 1;
+                inventory.clothCount -= 2;
+                inventory.logDisplay.text = inventory.logCount.ToString();
+                inventory.clothDisplay.text = inventory.clothCount.ToString();
+            }
+        }
+
+        if (crafting == true && axeRune == true && Input.GetKeyDown(KeyCode.Alpha2))
+        {
+
+            // check for necessary materials
+            if (inventory.logCount >= 1 && inventory.metalCount >= 2)
+            {
+                inventory.logCount -= 1;
+                inventory.metalCount -= 2;
+                inventory.logDisplay.text = inventory.logCount.ToString();
+                inventory.metalDisplay.text = inventory.metalCount.ToString();
+            }
+        }
+
+        if (crafting == true && netRune == true && Input.GetKeyDown(KeyCode.Alpha4))
+        {
+
+            // check for necessary materials
+            if (inventory.logCount >= 2 && inventory.clothCount >= 3)
+            {
+                inventory.logCount -= 2;
+                inventory.clothCount -= 3;
+                inventory.logDisplay.text = inventory.logCount.ToString();
+                inventory.clothDisplay.text = inventory.clothCount.ToString();
+            }
+        }
+
+        if (crafting == true && shovelRune == true && Input.GetKeyDown(KeyCode.Alpha5))
+        {
+
+            // check for necessary materials
+            if (inventory.logCount >= 2 && inventory.metalCount >= 3)
+            {
+                inventory.logCount -= 2;
+                inventory.metalCount -= 3;
+                inventory.logDisplay.text = inventory.logCount.ToString();
+                inventory.metalDisplay.text = inventory.metalCount.ToString();
+            }
+        }
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,6 +101,30 @@ public class PlayerCrafting : MonoBehaviour {
         if (other.gameObject.CompareTag("Bridge Rune"))
         {
             bridgeRune = true;
+            other.gameObject.SetActive(false);
+        }
+
+        if(other.gameObject.CompareTag("Torch Rune"))
+        {
+            torchRune = true;
+            other.gameObject.SetActive(false);
+        }
+
+        if(other.gameObject.CompareTag("Axe Rune"))
+        {
+            axeRune = true;
+            other.gameObject.SetActive(false);
+        }
+
+        if(other.gameObject.CompareTag("Net Rune"))
+        {
+            netRune = true;
+            other.gameObject.SetActive(false);
+        }
+
+        if(other.gameObject.CompareTag("Shovel Rune"))
+        {
+            shovelRune = true;
             other.gameObject.SetActive(false);
         }
     }// end of OnTriggerEnter
