@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Log
   - Wood
+  - chop
   layers:
   - Default
   - TransparentFX
