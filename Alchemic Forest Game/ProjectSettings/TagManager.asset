@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Log
-  - edge
+  - Wood
+  - chop
+  - Cloth
+  - Metal
+  - Gem
   layers:
   - Default
   - TransparentFX
