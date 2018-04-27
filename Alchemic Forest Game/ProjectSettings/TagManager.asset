@@ -12,6 +12,7 @@ TagManager:
   - Cloth
   - Metal
   - Gem
+  - Axe Rune
   layers:
   - Default
   - TransparentFX

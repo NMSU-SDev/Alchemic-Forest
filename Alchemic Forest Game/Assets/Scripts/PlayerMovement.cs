@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour {
 
     int currentAnimationState = IDLE;
 
+    public bool hasAxe;
+
     
 
     void Start()
@@ -40,6 +42,8 @@ public class PlayerMovement : MonoBehaviour {
         clothCount = 0;
         metalCount = 0;
         gemCount = 0;
+
+        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
 
         animator = GetComponent<Animator>();
     }// end of Start
@@ -144,7 +148,6 @@ public class PlayerMovement : MonoBehaviour {
             gemDisplay.text = gemCount.ToString();
         }//end if
 
-        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
         if(other.gameObject.CompareTag("chop"))
         {
             if (hasAxe == true)

@@ -59,6 +59,8 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalCount -= 2;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
+
+                inventory.hasAxe = true;
             }
         }
 
