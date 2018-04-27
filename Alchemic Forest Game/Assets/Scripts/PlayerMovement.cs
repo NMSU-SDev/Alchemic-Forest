@@ -11,6 +11,15 @@ public class PlayerMovement : MonoBehaviour {
     public float speed;
     public Text logDisplay;
 
+    public int clothCount;
+    public Text clothDisplay;
+
+    public int metalCount;
+    public Text metalDisplay;
+
+    public int gemCount;
+    public Text gemDisplay;
+
     Animator animator;
 
     const int IDLE = 0;
@@ -26,7 +35,12 @@ public class PlayerMovement : MonoBehaviour {
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
+
         logCount = 0;
+        clothCount = 0;
+        metalCount = 0;
+        gemCount = 0;
+
         animator = GetComponent<Animator>();
     }// end of Start
 
@@ -107,6 +121,27 @@ public class PlayerMovement : MonoBehaviour {
             other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
             logCount = logCount + 1;
             logDisplay.text = logCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Cloth"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            clothCount = clothCount + 1;
+            clothDisplay.text = clothCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Metal"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            metalCount = metalCount + 1;
+            metalDisplay.text = metalCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Gem"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            gemCount = gemCount + 1;
+            gemDisplay.text = gemCount.ToString();
         }//end if
 
         bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
