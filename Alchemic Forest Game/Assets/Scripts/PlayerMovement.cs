@@ -108,5 +108,14 @@ public class PlayerMovement : MonoBehaviour {
             logCount = logCount + 1;
             logDisplay.text = logCount.ToString();
         }//end if
+
+        public bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
+        if(other.gameObject.CompareTag("chop"))
+        {
+            if (hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+            }
+        }
     }// end of OnTriggerEnter
 }// End of PlayerMovement
