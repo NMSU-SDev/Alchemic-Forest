@@ -7,6 +7,11 @@ TagManager:
   - Log
   - Transmutation
   - Bridge Rune
+  - Wood
+  - chop
+  - Cloth
+  - Metal
+  - Gem
   layers:
   - Default
   - TransparentFX
