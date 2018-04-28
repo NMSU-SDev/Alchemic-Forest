@@ -35659,8 +35659,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427bdfe349033284c9e7d62403053ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logCount: 0
   speed: 45
   logDisplay: {fileID: 0}
+  clothCount: 0
+  clothDisplay: {fileID: 0}
+  metalCount: 0
+  metalDisplay: {fileID: 0}
+  gemCount: 0
+  gemDisplay: {fileID: 0}
+  hasAxe: 0
 --- !u!95 &852057652
 Animator:
   serializedVersion: 3
@@ -35703,6 +35711,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42666668, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &852057654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 852057649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e26d469c063d4489ca75a84961e853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &860185813
 GameObject:
   m_ObjectHideFlags: 0
