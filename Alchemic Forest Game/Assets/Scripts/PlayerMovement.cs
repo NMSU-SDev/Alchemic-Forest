@@ -6,10 +6,19 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rigid2D;
-    private int logCount;
+    public int logCount;// dependency in PlayerCrafting.cs
 
     public float speed;
     public Text logDisplay;
+
+    public int clothCount;
+    public Text clothDisplay;
+
+    public int metalCount;
+    public Text metalDisplay;
+
+    public int gemCount;
+    public Text gemDisplay;
 
     Animator animator;
 
@@ -21,12 +30,21 @@ public class PlayerMovement : MonoBehaviour {
 
     int currentAnimationState = IDLE;
 
+    public bool hasAxe;
+
     
 
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
+
         logCount = 0;
+        clothCount = 0;
+        metalCount = 0;
+        gemCount = 0;
+
+        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
+
         animator = GetComponent<Animator>();
     }// end of Start
 
@@ -109,7 +127,27 @@ public class PlayerMovement : MonoBehaviour {
             logDisplay.text = logCount.ToString();
         }//end if
 
-        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
+        if (other.gameObject.CompareTag("Cloth"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            clothCount = clothCount + 1;
+            clothDisplay.text = clothCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Metal"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            metalCount = metalCount + 1;
+            metalDisplay.text = metalCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Gem"))
+        {
+            other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
+            gemCount = gemCount + 1;
+            gemDisplay.text = gemCount.ToString();
+        }//end if
+
         if(other.gameObject.CompareTag("chop"))
         {
             if (hasAxe == true)
