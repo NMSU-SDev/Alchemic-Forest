@@ -5,11 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Log
+  - Transmutation
+  - Bridge Rune
   - Wood
   - chop
   - Cloth
   - Metal
   - Gem
+  - Axe Rune
   layers:
   - Default
   - TransparentFX
