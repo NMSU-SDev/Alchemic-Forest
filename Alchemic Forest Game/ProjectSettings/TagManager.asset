@@ -13,6 +13,9 @@ TagManager:
   - Metal
   - Gem
   - Axe Rune
+  - Torch Rune
+  - Net Rune
+  - Shovel Rune
   layers:
   - Default
   - TransparentFX
