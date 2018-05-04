@@ -13,6 +13,7 @@ TagManager:
   - Metal
   - Gem
   - Axe Rune
+  - Drop
   layers:
   - Default
   - TransparentFX

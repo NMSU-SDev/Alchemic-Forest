@@ -155,5 +155,11 @@ public class PlayerMovement : MonoBehaviour {
                 other.gameObject.SetActive(false);
             }
         }
+
+        // summer level "drop" floor challange
+        if(other.gameObject.CompareTag("Drop"))
+        {
+            transform.position = new Vector2(19,-15);
+        }
     }// end of OnTriggerEnter
 }// End of PlayerMovement
