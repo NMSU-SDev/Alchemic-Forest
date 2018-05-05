@@ -14,6 +14,10 @@ TagManager:
   - Gem
   - Axe Rune
   - Drop
+  - Summer Tree Puzzle
+  - Winter Tree Puzzle
+  - Fall Tree Puzzle
+  - Spring Tree Puzzle
   layers:
   - Default
   - TransparentFX

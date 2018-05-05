@@ -19,7 +19,7 @@ public class PlayerCrafting : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+       
         GameObject player = GameObject.Find("Player");
         PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
@@ -49,6 +49,7 @@ public class PlayerCrafting : MonoBehaviour {
             }
         }
 
+        inventory.hasAxe = true;
         if (crafting == true && axeRune == true && Input.GetKeyDown(KeyCode.Alpha2))
         {
 

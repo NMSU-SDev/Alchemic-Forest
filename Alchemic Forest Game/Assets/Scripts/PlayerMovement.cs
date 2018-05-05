@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public bool hasAxe;
 
-    
+    public int puzzleCount = 4;
 
     void Start()
     {
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour {
         gemCount = 0;
 
         bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
-
+        
         animator = GetComponent<Animator>();
     }// end of Start
 
@@ -150,14 +150,54 @@ public class PlayerMovement : MonoBehaviour {
 
         if(other.gameObject.CompareTag("chop"))
         {
+            //hasAxe = true;
             if (hasAxe == true)
             {
                 other.gameObject.SetActive(false);
             }
         }
 
+
+        if (other.gameObject.CompareTag("Fall Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 4 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCount = puzzleCount - 1;
+            }
+        }
+
+         if (other.gameObject.CompareTag("Winter Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 3 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCount = puzzleCount - 1;
+            }
+        }
+
+        if (other.gameObject.CompareTag("Spring Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 2 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCount = puzzleCount - 1;
+            }
+        }
+
+        if (other.gameObject.CompareTag("Summer Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 1 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+            }
+        }
         // summer level "drop" floor challange
-        if(other.gameObject.CompareTag("Drop"))
+        if (other.gameObject.CompareTag("Drop"))
         {
             transform.position = new Vector2(19,-15);
         }
