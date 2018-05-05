@@ -49,7 +49,7 @@ public class PlayerCrafting : MonoBehaviour {
             }
         }
 
-        inventory.hasAxe = true;
+
         if (crafting == true && axeRune == true && Input.GetKeyDown(KeyCode.Alpha2))
         {
 
