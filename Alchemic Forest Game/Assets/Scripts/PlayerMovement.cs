@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour {
     public int gemCount;
     public Text gemDisplay;
 
+    public int fishCount;
+    public Text fishDisplay;
+
     Animator animator;
 
     const int IDLE = 0;
@@ -31,6 +34,7 @@ public class PlayerMovement : MonoBehaviour {
     int currentAnimationState = IDLE;
 
     public bool hasAxe;
+    public bool hasNet;
 
     
 
@@ -155,5 +159,12 @@ public class PlayerMovement : MonoBehaviour {
                 other.gameObject.SetActive(false);
             }
         }
+
+        if (other.gameObject.CompareTag("SymForFishing") && hasNet == true)
+        {
+            fishCount = fishCount + 1;
+            fishDisplay.text = fishCount.ToString();
+        }//end if
+
     }// end of OnTriggerEnter
 }// End of PlayerMovement

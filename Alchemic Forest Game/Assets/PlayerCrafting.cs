@@ -75,6 +75,8 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.clothCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
+
+                inventory.hasNet = true;
             }
         }
 
