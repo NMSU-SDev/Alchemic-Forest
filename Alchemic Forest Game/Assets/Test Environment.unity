@@ -7646,6 +7646,12 @@ MonoBehaviour:
   metalDisplay: {fileID: 830241188}
   gemCount: 0
   gemDisplay: {fileID: 1894969657}
+  torchCount: 0
+  torchDisplay: {fileID: 554253120}
+  axeCount: 0
+  axeDisplay: {fileID: 2047465757}
+  shovelCount: 0
+  shovelDisplay: {fileID: 941803077}
   hasAxe: 0
 --- !u!95 &1501614577
 Animator:
