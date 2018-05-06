@@ -15,6 +15,9 @@ public class PlayerCrafting : MonoBehaviour {
         axeRune = false;
         netRune = false;
         shovelRune = false;
+
+        GameObject.FindWithTag("Dim Light").SetActive(true);
+        GameObject.FindWithTag("Torch Light").SetActive(false);
     }
 	
 	// Update is called once per frame
