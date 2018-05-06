@@ -53,6 +53,8 @@ public class PlayerCrafting : MonoBehaviour {
                     default :
                         break;
                 }
+
+                bridges += 1;
             }
         }
 
