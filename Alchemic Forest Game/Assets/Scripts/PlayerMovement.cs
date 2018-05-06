@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour {
     public int shovelCount;
     public Text shovelDisplay;
 
+    public int netCount;
+    public Text netDisplay;
+
     Animator animator;
 
     const int IDLE = 0;
