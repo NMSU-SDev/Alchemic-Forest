@@ -7,6 +7,8 @@ public class PlayerCrafting : MonoBehaviour {
     bool crafting;
 
     bool bridgeRune, torchRune, axeRune, netRune, shovelRune;
+
+    int bridges;
     // Use this for initialization
     void Start () {
         crafting = false;
@@ -15,6 +17,8 @@ public class PlayerCrafting : MonoBehaviour {
         axeRune = false;
         netRune = false;
         shovelRune = false;
+
+        bridges = 0;
     }
 	
 	// Update is called once per frame
@@ -22,8 +26,6 @@ public class PlayerCrafting : MonoBehaviour {
 
         GameObject player = GameObject.Find("Player");
         PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
-
-        int bridges = 0;
 
         // check that user is on transmutation circle and which recipe to use
         // crafting for bridge
