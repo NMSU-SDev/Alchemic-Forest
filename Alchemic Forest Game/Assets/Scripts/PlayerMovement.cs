@@ -33,18 +33,23 @@ public class PlayerMovement : MonoBehaviour {
     public bool hasAxe;
 
     public int puzzleCount = 4;
+    public GameObject sRune;
+
 
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
 
+        
         logCount = 0;
         clothCount = 0;
         metalCount = 0;
         gemCount = 0;
 
         bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
-        
+        GameObject sRune = GameObject.Find("shovelRune");
+
+        sRune.SetActive(false);
         animator = GetComponent<Animator>();
     }// end of Start
 
@@ -115,12 +120,12 @@ public class PlayerMovement : MonoBehaviour {
 
         }//end of changeState
 
-
     // Upon collision with another trigger game object the script will enter this method.
     // This method will be used to identify the object by tags and preform nessasary actions.
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Log"))
+ 
+        if (other.gameObject.CompareTag("Log"))
         {
             other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
             logCount = logCount + 1;
@@ -193,7 +198,10 @@ public class PlayerMovement : MonoBehaviour {
             hasAxe = true;
             if (puzzleCount == 1 && hasAxe == true)
             {
+                sRune.gameObject.SetActive(true);
                 other.gameObject.SetActive(false);
+              //  GameObject sRune = GameObject.Find("ShovelRune");
+               
             }
         }
         // summer level "drop" floor challange
