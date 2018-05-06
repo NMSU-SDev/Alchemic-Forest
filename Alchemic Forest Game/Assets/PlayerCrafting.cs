@@ -23,6 +23,8 @@ public class PlayerCrafting : MonoBehaviour {
         GameObject player = GameObject.Find("Player");
         PlayerMovement inventory = player.GetComponent<PlayerMovement>(); // !!! change me when inventory moves to own script !!!
 
+        int bridges = 0;
+
         // check that user is on transmutation circle and which recipe to use
         // crafting for bridge
         if (crafting == true && bridgeRune == true && Input.GetKeyDown(KeyCode.Alpha3))
