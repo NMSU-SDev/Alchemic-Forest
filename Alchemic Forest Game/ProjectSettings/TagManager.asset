@@ -16,6 +16,8 @@ TagManager:
   - Torch Rune
   - Net Rune
   - Shovel Rune
+  - Torch Light
+  - Dim Light
   layers:
   - Default
   - TransparentFX
