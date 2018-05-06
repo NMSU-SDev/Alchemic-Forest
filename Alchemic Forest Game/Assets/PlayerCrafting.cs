@@ -42,6 +42,14 @@ public class PlayerCrafting : MonoBehaviour {
                         GameObject.FindWithTag("Bridge Cover").SetActive(false);
                         break;
 
+                    case 1:
+                        GameObject.FindWithTag("Bridge Cover2").SetActive(false);
+                        break;
+
+                    case 2:
+                        GameObject.FindWithTag("Bridge Cover3").SetActive(false);
+                        break;
+
                     default :
                         break;
                 }
