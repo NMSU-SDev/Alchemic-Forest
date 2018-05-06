@@ -35,7 +35,16 @@ public class PlayerCrafting : MonoBehaviour {
             {
                 inventory.logCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
-                GameObject.FindWithTag("Bridge Cover").SetActive(false);
+
+                switch (bridges)
+                {
+                    case 0:
+                        GameObject.FindWithTag("Bridge Cover").SetActive(false);
+                        break;
+
+                    default :
+                        break;
+                }
             }
         }
 
