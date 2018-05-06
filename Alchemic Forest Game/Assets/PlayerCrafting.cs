@@ -47,6 +47,9 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.clothCount -= 2;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
+
+                inventory.torchCount += 1;
+                inventory.torchDisplay.text = inventory.torchCount.ToString();
             }
         }
 
@@ -62,6 +65,8 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
 
                 inventory.hasAxe = true;
+                inventory.axeCount += 1;
+                inventory.axeDisplay.text = inventory.axeCount.ToString();
             }
         }
 
@@ -75,6 +80,9 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.clothCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
+
+                inventory.netCount += 1;
+                inventory.netDisplay.text = inventory.netCount.ToString();
             }
         }
 
@@ -88,6 +96,10 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
+
+
+                inventory.shovelCount += 1;
+                inventory.shovelDisplay.text = inventory.shovelCount.ToString();
             }
         }
     }
