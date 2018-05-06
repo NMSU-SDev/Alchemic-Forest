@@ -7652,6 +7652,8 @@ MonoBehaviour:
   axeDisplay: {fileID: 2047465757}
   shovelCount: 0
   shovelDisplay: {fileID: 941803077}
+  netCount: 0
+  netDisplay: {fileID: 1404250249}
   hasAxe: 0
 --- !u!95 &1501614577
 Animator:

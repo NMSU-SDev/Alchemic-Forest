@@ -55,6 +55,11 @@ public class PlayerMovement : MonoBehaviour {
         metalCount = 0;
         gemCount = 0;
 
+        torchCount = 0;
+        axeCount = 0;
+        shovelCount = 0;
+        netCount = 0;
+
         bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
 
         animator = GetComponent<Animator>();
