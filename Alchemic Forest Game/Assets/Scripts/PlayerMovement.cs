@@ -20,6 +20,15 @@ public class PlayerMovement : MonoBehaviour {
     public int gemCount;
     public Text gemDisplay;
 
+    public int torchCount;
+    public Text torchDisplay;
+
+    public int axeCount;
+    public Text axeDisplay;
+
+    public int shovelCount;
+    public Text shovelDisplay;
+
     Animator animator;
 
     const int IDLE = 0;
