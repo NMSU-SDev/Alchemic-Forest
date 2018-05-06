@@ -19,6 +19,8 @@ TagManager:
   - edge
   - Bridge Cover
   - SymForFishing
+  - Cat
+  - Bridge Cover2
   layers:
   - Default
   - TransparentFX

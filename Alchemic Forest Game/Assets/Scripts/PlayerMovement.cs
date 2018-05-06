@@ -160,11 +160,17 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
 
-        if (other.gameObject.CompareTag("SymForFishing") && hasNet == true)
+        if(other.gameObject.CompareTag("SymForFishing") && hasNet == true)
         {
             fishCount = fishCount + 1;
             fishDisplay.text = fishCount.ToString();
         }//end if
+
+        if (other.gameObject.CompareTag("Cat") && fishCount >= 1)
+        {
+            other.gameObject.SetActive(false);
+            fishCount -= 1;
+        }
 
     }// end of OnTriggerEnter
 }// End of PlayerMovement

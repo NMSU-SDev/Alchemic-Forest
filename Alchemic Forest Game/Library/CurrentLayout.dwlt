@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 71
+  controlID: 15
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 72
+  controlID: 16
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 64fbffff76fbffff82fbffff9efbffff00000000863a0000143b0000243b00001e3c0000463c0000
+    m_SelectedIDs: 0e410000
+    m_LastClickedID: 16654
+    m_ExpandedIDs: 6efbffff76fbffff82fbffff9cfbffff9efbffff00000000863a0000143b0000243b00001e3c0000463c00003c3e00004e480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -427,9 +427,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.4859529, y: -8.738117, z: -0.21791938}
+    m_Target: {x: 3.471926, y: -0.05820778, z: -0.18832351}
     speed: 2
-    m_Value: {x: -2.4859529, y: -8.738117, z: -0.21791938}
+    m_Value: {x: 3.471926, y: -0.05820778, z: -0.18832351}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -449,17 +449,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 43.794556
+    m_Target: 40.698174
     speed: 2
-    m_Value: 43.794556
+    m_Value: 40.698174
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -648,18 +648,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 80
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 80
   m_LastProjectPath: C:\Users\Lei Qian\Documents\Alchemic-Forest\Alchemic Forest Game
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 84270000
-    m_LastClickedID: 10116
+    m_SelectedIDs: d8270000
+    m_LastClickedID: 10200
     m_ExpandedIDs: 0000000084270000d82f00006838000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -719,18 +719,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000000000006c2f0000ca280000fa2b0000302e0000b66dffffb6df00000c3000001c300000de2700008a2900007a290000882f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PlayerMovement
-      m_OriginalName: PlayerMovement
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 1766
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -740,7 +740,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 26}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 80
   m_DirectoriesAreaWidth: 215
 --- !u!114 &18
