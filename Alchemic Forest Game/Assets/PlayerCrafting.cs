@@ -7,6 +7,7 @@ public class PlayerCrafting : MonoBehaviour {
     bool crafting;
 
     bool bridgeRune, torchRune, axeRune, netRune, shovelRune;
+
     // Use this for initialization
     void Start () {
         crafting = false;
@@ -16,8 +17,11 @@ public class PlayerCrafting : MonoBehaviour {
         netRune = false;
         shovelRune = false;
 
-        GameObject.FindWithTag("Dim Light").SetActive(true);
-        GameObject.FindWithTag("Torch Light").SetActive(false);
+        Light dimLight = GameObject.FindWithTag("Dim Light").GetComponent<Light>();
+        Light torchLight = GameObject.FindWithTag("Torch Light").GetComponent<Light>();
+
+        dimLight.intensity = 1;
+        torchLight.intensity = 0;
     }
 	
 	// Update is called once per frame
@@ -51,8 +55,11 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
 
-                GameObject.FindWithTag("Dim Light").SetActive(false);
-                GameObject.FindWithTag("Torch Light").SetActive(true);
+                Light dimLight = GameObject.FindWithTag("Dim Light").GetComponent<Light>();
+                Light torchLight = GameObject.FindWithTag("Torch Light").GetComponent<Light>();
+
+                dimLight.intensity = 0;
+                torchLight.intensity = 1;
             }
         }
 
