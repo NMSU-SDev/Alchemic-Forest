@@ -31,11 +31,12 @@ public class PlayerMovement : MonoBehaviour {
     int currentAnimationState = IDLE;
 
     public bool hasAxe;
+    public bool hasShovel;
 
     public int puzzleCount = 4;
     public GameObject sRune;
-
-
+    public GameObject fGem;
+    public GameObject blockTree;
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
@@ -46,11 +47,14 @@ public class PlayerMovement : MonoBehaviour {
         metalCount = 0;
         gemCount = 0;
 
-        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
+      bool hasAxe = true;// for testing when inventory is fully implemented this will be set there
+        //bool hasShovel = true;
       
         GameObject sRune = GameObject.Find("shovelRune");
-
+        GameObject fGem = GameObject.Find("finalGem");
+        GameObject blockTree = GameObject.Find("blockTrees");
         sRune.SetActive(false);
+        fGem.SetActive(false);
         animator = GetComponent<Animator>();
     }// end of Start
 
@@ -86,6 +90,11 @@ public class PlayerMovement : MonoBehaviour {
         else if(!Input.anyKey)
         {
            changeState(IDLE);
+        }
+
+        if(gemCount == 4)
+        {
+            blockTree.SetActive(false);
         }
     }//end of FixedUpdate
 
@@ -201,7 +210,7 @@ public class PlayerMovement : MonoBehaviour {
             {
                 sRune.gameObject.SetActive(true);
                 other.gameObject.SetActive(false);
-              //  GameObject sRune = GameObject.Find("ShovelRune");
+            
                
             }
         }
@@ -211,7 +220,7 @@ public class PlayerMovement : MonoBehaviour {
             transform.position = new Vector2(19,-15);
         }
 
-        bool hasShovel = true;
+        
         // for the trench cover and digging
         if (other.gameObject.CompareTag("Water Cover1") && hasShovel == true)
         {
@@ -348,6 +357,8 @@ public class PlayerMovement : MonoBehaviour {
         if (other.gameObject.CompareTag("Water Cover34") && hasShovel == true)
         {
             other.gameObject.SetActive(false);
+            fGem.SetActive(true);
+
         }
     }// end of OnTriggerEnter
 }// End of PlayerMovement

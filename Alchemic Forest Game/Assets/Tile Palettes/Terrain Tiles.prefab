@@ -348,6 +348,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -3, y: 13, z: 0}
+    second:
+      m_TileIndex: 27
+      m_TileSpriteIndex: 26
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 1
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: -1, y: 14, z: 0}
     second:
       m_TileIndex: 0
@@ -440,6 +449,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2ca9b8d9498a9924aa2c169fa3994081, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 5fb2f17f08d91db4590a7379804707c7, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 628a2a9261114aa4197d9b91edfd8af2, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300002, guid: fdf44c6e95f7e7145b1b8c1031d387b8, type: 3}
@@ -493,8 +504,10 @@ Tilemap:
     m_Data: {fileID: 21300204, guid: 69e595272f7c6d043923ae05a1c9fd55, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300084, guid: 69e595272f7c6d043923ae05a1c9fd55, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300060, guid: fdf44c6e95f7e7145b1b8c1031d387b8, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 27
+  - m_RefCount: 28
     m_Data:
       e00: 1
       e01: 0
@@ -515,7 +528,7 @@ Tilemap:
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 2.2e-44, g: 0, b: 0, a: NaN}
-  - m_RefCount: 27
+  - m_RefCount: 28
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -556,15 +569,17 @@ Tilemap:
   - serializedVersion: 1
     m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 2
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
+  - serializedVersion: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
   - serializedVersion: 1

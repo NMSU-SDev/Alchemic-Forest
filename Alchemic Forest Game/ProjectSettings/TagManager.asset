@@ -55,6 +55,8 @@ TagManager:
   - Water Cover32
   - Water Cover33
   - Water Cover34
+  - Final Gem
+  - Block Trees
   layers:
   - Default
   - TransparentFX

@@ -89,6 +89,7 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
+                inventory.hasShovel = true;
             }
         }
     }
