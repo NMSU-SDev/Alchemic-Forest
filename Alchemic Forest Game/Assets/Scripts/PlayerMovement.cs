@@ -20,6 +20,9 @@ public class PlayerMovement : MonoBehaviour {
     public int gemCount;
     public Text gemDisplay;
 
+    public Color black = new Color(0, 0, 0);
+    public float fadeSpeed = 2f;
+
     Animator animator;
 
     const int IDLE = 0;
@@ -37,6 +40,7 @@ public class PlayerMovement : MonoBehaviour {
     public GameObject sRune;
     public GameObject fGem;
     public GameObject blockTree;
+
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
@@ -57,6 +61,7 @@ public class PlayerMovement : MonoBehaviour {
         fGem.SetActive(false);
         animator = GetComponent<Animator>();
     }// end of Start
+
 
     void FixedUpdate()
     {
@@ -351,5 +356,9 @@ public class PlayerMovement : MonoBehaviour {
             fGem.SetActive(true);
 
         }
+
+       
+
+
     }// end of OnTriggerEnter
 }// End of PlayerMovement
