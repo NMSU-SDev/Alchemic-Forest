@@ -43,18 +43,30 @@ public class PlayerMovement : MonoBehaviour {
     int currentAnimationState = IDLE;
 
     public bool hasAxe;
+    public bool hasShovel;
 
-    
-
+    public int puzzleCount = 3;
+    public GameObject sRune;
+    public GameObject fGem;
+    public GameObject blockTree;
     void Start()
     {
         rigid2D = GetComponent<Rigidbody2D> ();  // set up the Rigidbody2D force 
 
+        
         logCount = 0;
         clothCount = 0;
         metalCount = 0;
         gemCount = 0;
 
+      bool hasAxe = true;// for testing when inventory is fully implemented this will be set there
+        //bool hasShovel = true;
+      
+        GameObject sRune = GameObject.Find("shovelRune");
+        GameObject fGem = GameObject.Find("finalGem");
+        GameObject blockTree = GameObject.Find("blockTrees");
+        sRune.SetActive(false);
+        fGem.SetActive(false);
         torchCount = 0;
         axeCount = 0;
         shovelCount = 0;
@@ -98,6 +110,11 @@ public class PlayerMovement : MonoBehaviour {
         {
            changeState(IDLE);
         }
+
+        if(gemCount == 4)
+        {
+            blockTree.SetActive(false);
+        }
     }//end of FixedUpdate
 
         void changeState(int state)
@@ -132,12 +149,12 @@ public class PlayerMovement : MonoBehaviour {
 
         }//end of changeState
 
-
     // Upon collision with another trigger game object the script will enter this method.
     // This method will be used to identify the object by tags and preform nessasary actions.
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Log"))
+ 
+        if (other.gameObject.CompareTag("Log"))
         {
             other.gameObject.SetActive(false);// deactivate the object.This will make it dissapear from the game.
             logCount = logCount + 1;
@@ -167,10 +184,191 @@ public class PlayerMovement : MonoBehaviour {
 
         if(other.gameObject.CompareTag("chop"))
         {
+            //hasAxe = true;
             if (hasAxe == true)
             {
                 other.gameObject.SetActive(false);
             }
+        }
+
+
+        if (other.gameObject.CompareTag("Fall Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 3 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCount = puzzleCount - 1;
+            }
+        }
+
+
+        if (other.gameObject.CompareTag("Spring Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 2 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCount = puzzleCount - 1;
+            }
+        }
+
+        if (other.gameObject.CompareTag("Summer Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCount == 1 && hasAxe == true)
+            {
+                sRune.gameObject.SetActive(true);
+                other.gameObject.SetActive(false);
+            
+               
+            }
+        }
+        // summer level "drop" floor challange
+        if (other.gameObject.CompareTag("Drop"))
+        {
+            transform.position = new Vector2(19,-15);
+        }
+
+        
+        // for the trench cover and digging
+        if (other.gameObject.CompareTag("Water Cover1") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover2") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover3") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover4") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover5") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover6") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover7") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover8") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover9") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover10") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover11") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover12") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover13") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover14") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover15") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover16") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover17") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover18") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover19") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover20") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover21") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover22") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover23") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover24") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover25") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover26") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover27") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover28") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover29") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover30") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover31") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover32") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover33") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Water Cover34") && hasShovel == true)
+        {
+            other.gameObject.SetActive(false);
+            fGem.SetActive(true);
+
         }
     }// end of OnTriggerEnter
 }// End of PlayerMovement
