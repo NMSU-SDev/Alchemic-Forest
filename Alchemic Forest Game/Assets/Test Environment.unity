@@ -7721,13 +7721,13 @@ MonoBehaviour:
   gemCount: 0
   gemDisplay: {fileID: 1894969657}
   torchCount: 0
-  torchDisplay: {fileID: 0}
+  torchDisplay: {fileID: 554253120}
   axeCount: 0
-  axeDisplay: {fileID: 0}
+  axeDisplay: {fileID: 2047465757}
   shovelCount: 0
-  shovelDisplay: {fileID: 0}
+  shovelDisplay: {fileID: 941803077}
   netCount: 0
-  netDisplay: {fileID: 0}
+  netDisplay: {fileID: 1404250249}
   hasAxe: 0
 --- !u!95 &1501614577
 Animator:
