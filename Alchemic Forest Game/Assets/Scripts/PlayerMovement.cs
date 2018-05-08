@@ -71,13 +71,6 @@ public class PlayerMovement : MonoBehaviour {
         GameObject blockTree = GameObject.Find("blockTrees");
         sRune.SetActive(false);
         fGem.SetActive(false);
-        torchCount = 0;
-        axeCount = 0;
-        shovelCount = 0;
-        netCount = 0;
-
-        bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
-
         animator = GetComponent<Animator>();
     }// end of Start
 
