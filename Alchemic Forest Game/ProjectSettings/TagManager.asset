@@ -27,6 +27,7 @@ TagManager:
   - Bridge Cover3
   - Torch Light
   - Dim Light
+  - exit
   layers:
   - Default
   - TransparentFX
