@@ -8,6 +8,7 @@ public class PlayerCrafting : MonoBehaviour {
 
     bool bridgeRune, torchRune, axeRune, netRune, shovelRune;
 
+    int bridges;
     // Use this for initialization
     void Start () {
         crafting = false;
@@ -16,6 +17,8 @@ public class PlayerCrafting : MonoBehaviour {
         axeRune = false;
         netRune = false;
         shovelRune = false;
+
+        bridges = 0;
 
         Light dimLight = GameObject.FindWithTag("Dim Light").GetComponent<Light>();
         Light torchLight = GameObject.FindWithTag("Torch Light").GetComponent<Light>();
@@ -40,7 +43,26 @@ public class PlayerCrafting : MonoBehaviour {
             {
                 inventory.logCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
-                GameObject.FindWithTag("Bridge Cover").SetActive(false);
+
+                switch (bridges)
+                {
+                    case 0:
+                        GameObject.FindWithTag("Bridge Cover").SetActive(false);
+                        break;
+
+                    case 1:
+                        GameObject.FindWithTag("Bridge Cover2").SetActive(false);
+                        break;
+
+                    case 2:
+                        GameObject.FindWithTag("Bridge Cover3").SetActive(false);
+                        break;
+
+                    default :
+                        break;
+                }
+
+                bridges += 1;
             }
         }
 
