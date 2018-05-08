@@ -19,6 +19,8 @@ TagManager:
   - Bridge Cover
   - Bridge Cover2
   - Bridge Cover3
+  - Torch Light
+  - Dim Light
   layers:
   - Default
   - TransparentFX
