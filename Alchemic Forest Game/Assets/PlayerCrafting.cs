@@ -116,6 +116,8 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
 
+                inventory.hasNet = true;
+
                 inventory.netCount += 1;
                 inventory.netDisplay.text = inventory.netCount.ToString();
             }

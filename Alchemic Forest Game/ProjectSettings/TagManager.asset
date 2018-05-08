@@ -13,14 +13,21 @@ TagManager:
   - Metal
   - Gem
   - Axe Rune
+  - Bridge Cover
   - Torch Rune
   - Net Rune
   - Shovel Rune
+  - edge
+  - Bridge Cover
+  - SymForFishing
+  - Cat
+  - Bridge Cover2
   - Bridge Cover
   - Bridge Cover2
   - Bridge Cover3
   - Torch Light
   - Dim Light
+  - exit
   layers:
   - Default
   - TransparentFX
