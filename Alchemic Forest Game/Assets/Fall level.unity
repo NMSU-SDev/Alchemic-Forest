@@ -1123,11 +1123,11 @@ MonoBehaviour:
   torchCount: 0
   torchDisplay: {fileID: 2020039544}
   axeCount: 0
-  axeDisplay: {fileID: 2020829378}
+  axeDisplay: {fileID: 0}
   shovelCount: 0
-  shovelDisplay: {fileID: 748581469}
+  shovelDisplay: {fileID: 0}
   netCount: 0
-  netDisplay: {fileID: 1057602212}
+  netDisplay: {fileID: 0}
   hasAxe: 0
   hasNet: 0
 --- !u!95 &311654434
@@ -3848,6 +3848,15 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -6, y: 35, z: 0}
+    second:
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 90
@@ -3856,6 +3865,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 306fffdf1dd7f9f459b8fe1b14362c73, type: 2}
   - m_RefCount: 90
     m_Data: {fileID: 11400000, guid: af78c0a17902a25408c5718a6bdc4f41, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b201502556b1e7b48b87f025ab056675, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 90
     m_Data: {fileID: 21301100, guid: 3f84ac0eb7e010b49bd313045033c088, type: 3}
@@ -3863,8 +3874,10 @@ Tilemap:
     m_Data: {fileID: 21301112, guid: 3f84ac0eb7e010b49bd313045033c088, type: 3}
   - m_RefCount: 90
     m_Data: {fileID: 21300222, guid: ba4847c36141fa44188ca59ee539a33d, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 6569b77aa0049fd469d15ee9accd86e7, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 270
+  - m_RefCount: 271
     m_Data:
       e00: 1
       e01: 0
@@ -3883,12 +3896,12 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 270
+  - m_RefCount: 271
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -43, y: 0, z: 0}
-  m_Size: {x: 91, y: 18, z: 1}
+  m_Size: {x: 91, y: 36, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -3909,6 +3922,8 @@ Tilemap:
     e32: 0
     e33: 1
   m_TileRefreshArray:
+  - serializedVersion: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
   - serializedVersion: 1
