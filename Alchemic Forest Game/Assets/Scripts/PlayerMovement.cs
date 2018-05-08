@@ -36,7 +36,8 @@ public class PlayerMovement : MonoBehaviour {
     public bool hasAxe;
     public bool hasShovel;
 
-    public int puzzleCount = 3;
+    public int puzzleCounter = 3;
+
     public GameObject sRune;
     public GameObject fGem;
     public GameObject blockTree;
@@ -181,10 +182,10 @@ public class PlayerMovement : MonoBehaviour {
         if (other.gameObject.CompareTag("Fall Tree Puzzle"))
         {
             hasAxe = true;
-            if (puzzleCount == 3 && hasAxe == true)
+            if (puzzleCounter == 3 && hasAxe == true)
             {
                 other.gameObject.SetActive(false);
-                puzzleCount = puzzleCount - 1;
+                puzzleCounter = puzzleCounter - 1;
             }
         }
 
@@ -192,17 +193,17 @@ public class PlayerMovement : MonoBehaviour {
         if (other.gameObject.CompareTag("Spring Tree Puzzle"))
         {
             hasAxe = true;
-            if (puzzleCount == 2 && hasAxe == true)
+            if (puzzleCounter == 2 && hasAxe == true)
             {
                 other.gameObject.SetActive(false);
-                puzzleCount = puzzleCount - 1;
+                puzzleCounter = puzzleCounter - 1;
             }
         }
 
         if (other.gameObject.CompareTag("Summer Tree Puzzle"))
         {
             hasAxe = true;
-            if (puzzleCount == 1 && hasAxe == true)
+            if (puzzleCounter == 1 && hasAxe == true)
             {
                 sRune.gameObject.SetActive(true);
                 other.gameObject.SetActive(false);
