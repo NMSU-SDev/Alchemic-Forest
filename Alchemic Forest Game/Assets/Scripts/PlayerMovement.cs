@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour {
         metalCount = 0;
         gemCount = 0;
 
-      bool hasAxe = true;// for testing when inventory is fully implemented this will be set there
+     // bool hasAxe = true;// for testing when inventory is fully implemented this will be set there
         //bool hasShovel = true;
       
         GameObject sRune = GameObject.Find("shovelRune");
