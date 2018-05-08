@@ -203,14 +203,14 @@ MonoBehaviour:
     height: 368
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -603,8 +603,8 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Micha\Dropbox\Michael\College assignments\CS 371\Alchemic
-    Forest\Alchemic-Forest\Alchemic Forest Game
+  m_LastProjectPath: C:\Users\Tamcat\Desktop\Alchemic Forest\AlchemicForest\Alchemic-Forest\Alchemic
+    Forest Game
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}

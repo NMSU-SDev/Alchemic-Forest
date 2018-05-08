@@ -20,6 +20,18 @@ public class PlayerMovement : MonoBehaviour {
     public int gemCount;
     public Text gemDisplay;
 
+    public int torchCount;
+    public Text torchDisplay;
+
+    public int axeCount;
+    public Text axeDisplay;
+
+    public int shovelCount;
+    public Text shovelDisplay;
+
+    public int netCount;
+    public Text netDisplay;
+
     Animator animator;
 
     const int IDLE = 0;
@@ -42,6 +54,11 @@ public class PlayerMovement : MonoBehaviour {
         clothCount = 0;
         metalCount = 0;
         gemCount = 0;
+
+        torchCount = 0;
+        axeCount = 0;
+        shovelCount = 0;
+        netCount = 0;
 
         bool hasAxe = false;// for testing when inventory is fully implemented this will be set there
 
