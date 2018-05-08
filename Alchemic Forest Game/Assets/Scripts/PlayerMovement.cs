@@ -20,8 +20,11 @@ public class PlayerMovement : MonoBehaviour {
     public int gemCount;
     public Text gemDisplay;
 
-    public Color black = new Color(0, 0, 0);
-    public float fadeSpeed = 2f;
+    public int fishCount;
+    public Text fishDisplay;
+
+    public int torchCount;
+    public Text torchDisplay;
 
     Animator animator;
 
@@ -34,6 +37,7 @@ public class PlayerMovement : MonoBehaviour {
     int currentAnimationState = IDLE;
 
     public bool hasAxe;
+    public bool hasNet;
     public bool hasShovel;
 
     public int puzzleCounter = 3;
@@ -177,6 +181,19 @@ public class PlayerMovement : MonoBehaviour {
                 other.gameObject.SetActive(false);
             }
         }
+
+        if(other.gameObject.CompareTag("SymForFishing") && hasNet == true)
+        {
+            fishCount = fishCount + 1;
+            fishDisplay.text = fishCount.ToString();
+        }//end if
+
+        if (other.gameObject.CompareTag("Cat") && fishCount >= 1)
+        {
+            other.gameObject.SetActive(false);
+            fishCount -= 1;
+        }
+
 
 
         if (other.gameObject.CompareTag("Fall Tree Puzzle"))
