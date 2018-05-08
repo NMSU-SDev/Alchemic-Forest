@@ -7,6 +7,8 @@ public class PlayerCrafting : MonoBehaviour {
     bool crafting;
 
     bool bridgeRune, torchRune, axeRune, netRune, shovelRune;
+
+    int bridges;
     // Use this for initialization
     void Start () {
         crafting = false;
@@ -15,6 +17,14 @@ public class PlayerCrafting : MonoBehaviour {
         axeRune = false;
         netRune = false;
         shovelRune = false;
+
+        bridges = 0;
+
+        Light dimLight = GameObject.FindWithTag("Dim Light").GetComponent<Light>();
+        Light torchLight = GameObject.FindWithTag("Torch Light").GetComponent<Light>();
+
+        dimLight.intensity = 1;
+        torchLight.intensity = 0;
     }
 	
 	// Update is called once per frame
@@ -33,7 +43,26 @@ public class PlayerCrafting : MonoBehaviour {
             {
                 inventory.logCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
-                GameObject.FindWithTag("Bridge Cover").SetActive(false);
+
+                switch (bridges)
+                {
+                    case 0:
+                        GameObject.FindWithTag("Bridge Cover").SetActive(false);
+                        break;
+
+                    case 1:
+                        GameObject.FindWithTag("Bridge Cover2").SetActive(false);
+                        break;
+
+                    case 2:
+                        GameObject.FindWithTag("Bridge Cover3").SetActive(false);
+                        break;
+
+                    default :
+                        break;
+                }
+
+                bridges += 1;
             }
         }
 
@@ -47,6 +76,15 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.clothCount -= 2;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
+
+                Light dimLight = GameObject.FindWithTag("Dim Light").GetComponent<Light>();
+                Light torchLight = GameObject.FindWithTag("Torch Light").GetComponent<Light>();
+
+                dimLight.intensity = 0;
+                torchLight.intensity = 1;
+
+                inventory.torchCount += 1;
+                inventory.torchDisplay.text = inventory.torchCount.ToString();
             }
         }
 
@@ -62,6 +100,8 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
 
                 inventory.hasAxe = true;
+                inventory.axeCount += 1;
+                inventory.axeDisplay.text = inventory.axeCount.ToString();
             }
         }
 
@@ -75,6 +115,9 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.clothCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.clothDisplay.text = inventory.clothCount.ToString();
+
+                inventory.netCount += 1;
+                inventory.netDisplay.text = inventory.netCount.ToString();
 
                 inventory.hasNet = true;
             }
@@ -90,6 +133,10 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.metalCount -= 3;
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
+
+
+                inventory.shovelCount += 1;
+                inventory.shovelDisplay.text = inventory.shovelCount.ToString();
             }
         }
     }
