@@ -1,0 +1,1992 @@
+fileFormatVersion: 2
+guid: 3d5ee7d5dd07e4a40888cfef27e53022
+timeCreated: 1525406178
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: aqPlant_0
+    21300002: aqPlant_1
+    21300004: aqPlant_2
+    21300006: aqPlant_3
+    21300008: aqPlant_4
+    21300010: aqPlant_5
+    21300012: aqPlant_6
+    21300014: aqPlant_7
+    21300016: aqPlant_8
+    21300018: aqPlant_9
+    21300020: aqPlant_10
+    21300022: aqPlant_11
+    21300024: aqPlant_12
+    21300026: aqPlant_13
+    21300028: aqPlant_14
+    21300030: aqPlant_15
+    21300032: aqPlant_16
+    21300034: aqPlant_17
+    21300036: aqPlant_18
+    21300038: aqPlant_19
+    21300040: aqPlant_20
+    21300042: aqPlant_21
+    21300044: aqPlant_22
+    21300046: aqPlant_23
+    21300048: aqPlant_24
+    21300050: aqPlant_25
+    21300052: aqPlant_26
+    21300054: aqPlant_27
+    21300056: aqPlant_28
+    21300058: aqPlant_29
+    21300060: aqPlant_30
+    21300062: aqPlant_31
+    21300064: aqPlant_32
+    21300066: aqPlant_33
+    21300068: aqPlant_34
+    21300070: aqPlant_35
+    21300072: aqPlant_36
+    21300074: aqPlant_37
+    21300076: aqPlant_38
+    21300078: aqPlant_39
+    21300080: aqPlant_40
+    21300082: aqPlant_41
+    21300084: aqPlant_42
+    21300086: aqPlant_43
+    21300088: aqPlant_44
+    21300090: aqPlant_45
+    21300092: aqPlant_46
+    21300094: aqPlant_47
+    21300096: aqPlant_48
+    21300098: aqPlant_49
+    21300100: aqPlant_50
+    21300102: aqPlant_51
+    21300104: aqPlant_52
+    21300106: aqPlant_53
+    21300108: aqPlant_54
+    21300110: aqPlant_55
+    21300112: aqPlant_56
+    21300114: aqPlant_57
+    21300116: aqPlant_58
+    21300118: aqPlant_59
+    21300120: aqPlant_60
+    21300122: aqPlant_61
+    21300124: aqPlant_62
+    21300126: aqPlant_63
+    21300128: aqPlant_64
+    21300130: aqPlant_65
+    21300132: aqPlant_66
+    21300134: aqPlant_67
+    21300136: aqPlant_68
+    21300138: aqPlant_69
+    21300140: aqPlant_70
+    21300142: aqPlant_71
+    21300144: aqPlant_72
+    21300146: aqPlant_73
+    21300148: aqPlant_74
+    21300150: aqPlant_75
+    21300152: aqPlant_76
+    21300154: aqPlant_77
+    21300156: aqPlant_78
+    21300158: aqPlant_79
+    21300160: aqPlant_80
+    21300162: aqPlant_81
+    21300164: aqPlant_82
+    21300166: aqPlant_83
+    21300168: aqPlant_84
+    21300170: aqPlant_85
+    21300172: aqPlant_86
+    21300174: aqPlant_87
+    21300176: aqPlant_88
+    21300178: aqPlant_89
+    21300180: aqPlant_90
+    21300182: aqPlant_91
+    21300184: aqPlant_92
+    21300186: aqPlant_93
+    21300188: aqPlant_94
+    21300190: aqPlant_95
+    21300192: aqPlant_96
+    21300194: aqPlant_97
+    21300196: aqPlant_98
+    21300198: aqPlant_99
+    21300200: aqPlant_100
+    21300202: aqPlant_101
+    21300204: aqPlant_102
+    21300206: aqPlant_103
+    21300208: aqPlant_104
+    21300210: aqPlant_105
+    21300212: aqPlant_106
+    21300214: aqPlant_107
+    21300216: aqPlant_108
+    21300218: aqPlant_109
+    21300220: aqPlant_110
+    21300222: aqPlant_111
+    21300224: aqPlant_112
+    21300226: aqPlant_113
+    21300228: aqPlant_114
+    21300230: aqPlant_115
+    21300232: aqPlant_116
+    21300234: aqPlant_117
+    21300236: aqPlant_118
+    21300238: aqPlant_119
+    21300240: aqPlant_120
+    21300242: aqPlant_121
+    21300244: aqPlant_122
+    21300246: aqPlant_123
+    21300248: aqPlant_124
+    21300250: aqPlant_125
+    21300252: aqPlant_126
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aqPlant_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 456
+        width: 144
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_1
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 632
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 588
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_3
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 462
+        width: 273
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 468
+        width: 134
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 588
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 486
+        width: 118
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_7
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 484
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 596
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_9
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 605
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_10
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 596
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 613
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_12
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 596
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_13
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 613
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_14
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 605
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 571
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 570
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_17
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 593
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_18
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 602
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_19
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 598
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_20
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 585
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_21
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 602
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 599
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_23
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 585
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_24
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 561
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_25
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 547
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 539
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 539
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_28
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 543
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_29
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 550
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_30
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 546
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_31
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 524
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_32
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 548
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_33
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 549
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_34
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 549
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_35
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 555
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_36
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 548
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_37
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 548
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_38
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 542
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_39
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 536
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_40
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 539
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_41
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 533
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_42
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 500
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_43
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 505
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_44
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 531
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_45
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 533
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_46
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 496
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_47
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 472
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_48
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 412
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_49
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 496
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_50
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 482
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_51
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 474
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_52
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 484
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 296
+        width: 92
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_55
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 411
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 416
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_57
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 349
+        width: 88
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_58
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 346
+        width: 90
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_59
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 428
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_60
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 426
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_61
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 428
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_62
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 304
+        width: 92
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_63
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 301
+        width: 157
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_64
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 437
+        width: 71
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_65
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 436
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_66
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 441
+        width: 84
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_67
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 359
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_68
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 364
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_69
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 364
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_70
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 380
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_71
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 387
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_72
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 389
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_73
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 305
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_74
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 387
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 268
+        width: 75
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_76
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 324
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_77
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 299
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_78
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 298
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_79
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 196
+        width: 138
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_80
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 316
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_81
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 295
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_82
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 308
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_83
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 320
+        width: 83
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_84
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 300
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 161
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_86
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_87
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 250
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_88
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 245
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_89
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 241
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_90
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 251
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_91
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 252
+        width: 75
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_92
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 4
+        width: 158
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_93
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 246
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_94
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 242
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_95
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 245
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_96
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_97
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 181
+        width: 91
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_98
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 180
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_99
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 181
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_100
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 181
+        width: 79
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_101
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 164
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_102
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 173
+        width: 89
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_103
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 174
+        width: 92
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_104
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 115
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_105
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 71
+        width: 102
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_106
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 109
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_107
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 119
+        width: 91
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_108
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 124
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_109
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 170
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_110
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 108
+        width: 91
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_111
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 108
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_112
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 113
+        width: 82
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_113
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 108
+        width: 83
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_114
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 160
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_115
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 152
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_116
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 118
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_117
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 124
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_118
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_119
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 11
+        width: 95
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_120
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 87
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_121
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 20
+        width: 127
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_122
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 20
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_123
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 0
+        width: 83
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_124
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 22
+        width: 120
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_125
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 18
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: aqPlant_126
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 8
+        width: 92
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
