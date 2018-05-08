@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Fall level.unity
+- path: Assets/Test Environment.unity
   isLoaded: 1
   isActive: 1
