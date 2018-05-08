@@ -52,8 +52,7 @@ public class Fader : MonoBehaviour
             myCanvas.alpha = 0.0f;
             StartCoroutine(FadeIt());
         }
-        else
-            Debug.LogWarning("Something is missing please reimport the package.");
+  
     }
 
     IEnumerator FadeIt()
@@ -100,7 +99,7 @@ public class Fader : MonoBehaviour
 
         Initiate.DoneFading();
 
-        Debug.Log("Your scene has been loaded , and fading in has just ended");
+      
 
         Destroy(gameObject);
 
@@ -133,7 +132,7 @@ public class Fader : MonoBehaviour
     void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
     {
         StartCoroutine(FadeIt());
-        //We can now fade in
+        // can now fade in
         isFadeIn = true;
     }
 }
