@@ -114,11 +114,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &37431750 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1874815424866968, guid: b910d6049e0187a468cc8d942be51031,
-    type: 2}
-  m_PrefabInternal: {fileID: 1073098033}
 --- !u!1 &49029521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,14 +1691,19 @@ MonoBehaviour:
   metalDisplay: {fileID: 1344348290}
   gemCount: 0
   gemDisplay: {fileID: 1541732364}
-  black: {r: 0, g: 0, b: 0, a: 1}
-  fadeSpeed: 2
+  fishCount: 0
+  fishDisplay: {fileID: 0}
+  torchCount: 0
+  torchDisplay: {fileID: 1637629404}
+  axeCount: 0
+  axeDisplay: {fileID: 1288656908}
+  shovelCount: 0
+  shovelDisplay: {fileID: 1285795648}
+  netCount: 0
+  netDisplay: {fileID: 1293034076}
   hasAxe: 1
+  hasNet: 0
   hasShovel: 0
-  puzzleCounter: 3
-  sRune: {fileID: 37431750}
-  fGem: {fileID: 1199424001}
-  blockTree: {fileID: 1615602683}
 --- !u!4 &454792475 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4338451026201478, guid: 9c075417031f0a141b772e30fab72490,
@@ -5236,6 +5236,12 @@ Transform:
   m_Father: {fileID: 877471203}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1285795648 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114463940769683426, guid: f850aa25719ca1844bb195507ef1d1b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1781955538}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1286020020
 GameObject:
   m_ObjectHideFlags: 0
@@ -5546,6 +5552,18 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+--- !u!114 &1288656908 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114822211950168722, guid: f850aa25719ca1844bb195507ef1d1b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1781955538}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &1293034076 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114428733415163932, guid: f850aa25719ca1844bb195507ef1d1b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1781955538}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1306250188
 GameObject:
   m_ObjectHideFlags: 0
@@ -9290,6 +9308,12 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+--- !u!114 &1637629404 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114124977625943090, guid: f850aa25719ca1844bb195507ef1d1b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1781955538}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1645544445
 GameObject:
   m_ObjectHideFlags: 0
