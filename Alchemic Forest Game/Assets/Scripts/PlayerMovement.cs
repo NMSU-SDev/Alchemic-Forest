@@ -50,8 +50,12 @@ public class PlayerMovement : MonoBehaviour
     public bool hasNet;
     public bool hasShovel;
 
-    GameObject fGem = GameObject.Find("finalGem");
-    void Start()
+    public int puzzleCounter = 3;
+    public GameObject sRune;
+    public GameObject fGem;
+    public GameObject blockTree;
+
+   void Start()
     {
         rigid2D = GetComponent<Rigidbody2D>();  // set up the Rigidbody2D force 
 
@@ -64,6 +68,12 @@ public class PlayerMovement : MonoBehaviour
         axeCount = 0;
         shovelCount = 0;
         netCount = 0;
+
+        GameObject sRune = GameObject.Find("shovelRune");
+        GameObject fGem = GameObject.Find("finalGem");
+        GameObject blockTree = GameObject.Find("blockTrees");
+        sRune.SetActive(false);
+        fGem.SetActive(false);
 
         animator = GetComponent<Animator>();
     }// end of Start
@@ -101,6 +111,12 @@ public class PlayerMovement : MonoBehaviour
         {
             changeState(IDLE);
         }
+
+        if (gemCount == 4)
+        {
+            blockTree.SetActive(false);
+        }
+
     }//end of FixedUpdate
 
     void changeState(int state)
@@ -181,6 +197,40 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = new Vector2(19, -15);
         }
+
+        if (other.gameObject.CompareTag("Fall Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCounter == 3 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCounter = puzzleCounter - 1;
+            }
+        }
+
+
+        if (other.gameObject.CompareTag("Spring Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCounter == 2 && hasAxe == true)
+            {
+                other.gameObject.SetActive(false);
+                puzzleCounter = puzzleCounter - 1;
+            }
+        }
+
+        if (other.gameObject.CompareTag("Summer Tree Puzzle"))
+        {
+            hasAxe = true;
+            if (puzzleCounter == 1 && hasAxe == true)
+            {
+                sRune.gameObject.SetActive(true);
+                other.gameObject.SetActive(false);
+
+
+            }
+        }
+
 
 
         // for the trench cover and digging
