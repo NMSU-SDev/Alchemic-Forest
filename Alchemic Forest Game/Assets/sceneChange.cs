@@ -9,7 +9,12 @@ public class sceneChange : MonoBehaviour {
     {
         if(other.gameObject.CompareTag("Exit"))
         {
-            Initiate.Fade("Spring Level", loadToColor, 1f);
+            Initiate.Fade("Spring Level", loadToColor, .5f);
+        }
+
+        if (other.gameObject.CompareTag("exit1"))
+        {
+            Initiate.Fade("Summer", loadToColor, .5f);
         }
     }
 }

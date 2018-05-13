@@ -67,6 +67,7 @@ TagManager:
   - Torch Light
   - Dim Light
   - exit
+  - exit1
   layers:
   - Default
   - TransparentFX

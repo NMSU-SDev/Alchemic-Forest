@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Spring Level.unity
     guid: c67572b373a6c8e49be767f9631971c0
+  - enabled: 1
+    path: Assets/Summer.unity
+    guid: f7d737a9e6e0ec945bc2d8b49a659f53

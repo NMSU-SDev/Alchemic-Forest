@@ -69,13 +69,14 @@ public class PlayerMovement : MonoBehaviour
         shovelCount = 0;
         netCount = 0;
 
+        animator = GetComponent<Animator>();
         GameObject sRune = GameObject.Find("shovelRune");
         GameObject fGem = GameObject.Find("finalGem");
         GameObject blockTree = GameObject.Find("blockTrees");
         sRune.SetActive(false);
         fGem.SetActive(false);
 
-        animator = GetComponent<Animator>();
+       
     }// end of Start
 
     void FixedUpdate()
