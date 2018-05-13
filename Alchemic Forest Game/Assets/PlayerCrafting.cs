@@ -134,7 +134,7 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
 
-
+                inventory.hasShovel = true;
                 inventory.shovelCount += 1;
                 inventory.shovelDisplay.text = inventory.shovelCount.ToString();
             }
