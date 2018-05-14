@@ -5,11 +5,14 @@ using UnityEngine;
 public class SceneChange : MonoBehaviour {
     public Color loadToColor = Color.black;
 
-    private void OnTriggerEnter2D(Collider2D other)
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("exit"))
+        if (other.gameObject.CompareTag("Exit"))
         {
-            Initiate.Fade("Spring Level", loadToColor, 1f);
+            Initiate.Fade("Summer", loadToColor, 1f);
+
         }
     }
+
 }

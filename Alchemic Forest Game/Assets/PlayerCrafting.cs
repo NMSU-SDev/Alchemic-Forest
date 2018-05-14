@@ -48,10 +48,12 @@ public class PlayerCrafting : MonoBehaviour {
                 {
                     case 0:
                         GameObject.FindWithTag("Bridge Cover").SetActive(false);
+                        GameObject.FindWithTag("Bridge Cover1").SetActive(false);
                         break;
 
                     case 1:
                         GameObject.FindWithTag("Bridge Cover2").SetActive(false);
+                        GameObject.FindWithTag("Bridge Cover3").SetActive(false);
                         break;
 
                     case 2:
@@ -134,7 +136,7 @@ public class PlayerCrafting : MonoBehaviour {
                 inventory.logDisplay.text = inventory.logCount.ToString();
                 inventory.metalDisplay.text = inventory.metalCount.ToString();
 
-
+                inventory.hasShovel = true;
                 inventory.shovelCount += 1;
                 inventory.shovelDisplay.text = inventory.shovelCount.ToString();
             }

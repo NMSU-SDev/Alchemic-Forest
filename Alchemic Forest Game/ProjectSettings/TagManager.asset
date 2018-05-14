@@ -13,21 +13,62 @@ TagManager:
   - Metal
   - Gem
   - Axe Rune
+  - Drop
   - Bridge Cover
   - Torch Rune
   - Net Rune
   - Shovel Rune
+  - Summer Tree Puzzle
+  - Winter Tree Puzzle
+  - Fall Tree Puzzle
+  - Spring Tree Puzzle
+  - Water Cover1
+  - Water Cover2
+  - Water Cover3
+  - Water Cover4
+  - Water Cover5
+  - Water Cover6
+  - Water Cover7
+  - Water Cover8
+  - Water Cover9
+  - Water Cover10
+  - Water Cover11
+  - Water Cover12
+  - Water Cover13
+  - Water Cover14
+  - Water Cover15
+  - Water Cover16
+  - Water Cover17
+  - Water Cover18
+  - Water Cover19
+  - Water Cover20
+  - Water Cover21
+  - Water Cover22
+  - Water Cover23
+  - Water Cover24
+  - Water Cover25
+  - Water Cover26
+  - Water Cover27
+  - Water Cover28
+  - Water Cover29
+  - Water Cover30
+  - Water Cover31
+  - Water Cover32
+  - Water Cover33
+  - Water Cover34
+  - Final Gem
+  - Block Trees
+  - Exit
   - edge
-  - Bridge Cover
   - SymForFishing
   - Cat
-  - Bridge Cover2
-  - Bridge Cover
   - Bridge Cover2
   - Bridge Cover3
   - Torch Light
   - Dim Light
   - exit
+  - Bridge Cover1
+  - exit1
   layers:
   - Default
   - TransparentFX
